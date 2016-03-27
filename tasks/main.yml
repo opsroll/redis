@@ -1,0 +1,6 @@
+---
+# tasks file for .
+- name: Install Redis
+  package: >
+    name=redis
+    state=latest
