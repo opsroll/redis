@@ -1,0 +1,18 @@
+galaxy_info:
+  author: Charles Gardner
+  description: Install redis locally for use with ansible fact caching.
+  company: OpsRoll
+  license: license (GPLv2, CC-BY, etc)
+
+  min_ansible_version: 1.2
+
+  - name: GenericUNIX
+    versions:
+  - name: GenericLinux
+    versions:
+    - all
+
+  galaxy_tags: ["development", "setup", "redis"]
+
+dependencies: 
+  - { role: opsroll.ansible }
